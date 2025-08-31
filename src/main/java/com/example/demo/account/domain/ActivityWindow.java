@@ -1,11 +1,11 @@
-package com.example.demo.domain;
+package com.example.demo.account.domain;
 
 import lombok.NonNull;
 
 import java.time.LocalDateTime;
 import java.util.*;
 
-import static com.example.demo.domain.Account.*;
+import static com.example.demo.account.domain.Account.*;
 
 public class ActivityWindow {
 

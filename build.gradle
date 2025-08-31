@@ -24,6 +24,17 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
+
+
+    // Jakarta Bean Validation API
+    implementation 'jakarta.validation:jakarta.validation-api:3.0.2'
+
+    // 구현체: Hibernate Validator
+    implementation 'org.hibernate.validator:hibernate-validator:8.0.0.Final'
+
+    // Optional: EL(Expression Language) 필요 시
+    implementation 'org.glassfish:jakarta.el:4.0.2'
+
 }
 
 test {
