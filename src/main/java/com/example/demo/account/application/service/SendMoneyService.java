@@ -7,12 +7,14 @@ import com.example.demo.account.application.port.out.LoadAccountPort;
 import com.example.demo.account.application.port.out.UpdateAccountStatePort;
 import com.example.demo.account.domain.Account;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
 
 import static com.example.demo.account.domain.Account.*;
 
 @RequiredArgsConstructor
+@Service
 public class SendMoneyService implements SendMoneyUseCase{
 
     private final LoadAccountPort loadAccountPort;
